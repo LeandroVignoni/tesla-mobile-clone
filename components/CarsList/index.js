@@ -5,7 +5,6 @@ import cars from "./cars";
 import CarItem from "../CarItem";
 
 function CarsList() {
-  console.log(cars);
   return (
     <View style={styles.container}>
       <FlatList
